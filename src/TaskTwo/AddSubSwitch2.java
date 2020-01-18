@@ -70,11 +70,9 @@ public class AddSubSwitch2 {
 				System.out.println("Average of two numbers: " + ans);
 			}
 			break;
-		default:
-
-			System.out.println("Oops option: " + val + " is returning the negative number");
-
 		}
+		if (ans < 0)
+			System.out.println("Oops option: " + val + " is returning the negative number");
 	}
 
 }
