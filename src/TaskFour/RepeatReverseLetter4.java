@@ -1,6 +1,6 @@
 package TaskFour;
 
-public class RepeatReverseLetter {
+public class RepeatReverseLetter4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

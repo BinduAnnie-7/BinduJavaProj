@@ -13,18 +13,21 @@ public class BreakContinueProg4 {
 		System.out.println("Enter any number");
 		num = sc.nextInt();
 
-		for (i = num; i <= num + 1; i++) {
-			if (num > 0) {
-				System.out.println("Good Going");
-				continue;
-			} else if (num < 0) {
-				System.out.println("It's Over");
-				break;
-
-			}
-
+		while (num < 0) {
+			System.out.println("It's Over");
+			break;
 		}
+		System.out.println("Good Going");
 
+		/*
+		 * for (i = num; i <= num + 1; i++) { if (num > 0) {
+		 * System.out.println("Good Going"); continue; } else if (num < 0) {
+		 * System.out.println("It's Over"); break;
+		 * 
+		 * }
+		 * 
+		 * }
+		 */
 	}
 
 }

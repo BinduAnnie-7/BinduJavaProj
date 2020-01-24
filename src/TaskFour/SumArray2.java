@@ -1,6 +1,6 @@
 package TaskFour;
 
-public class SumArray {
+public class SumArray2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
