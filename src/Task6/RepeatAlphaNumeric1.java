@@ -18,7 +18,8 @@ public class RepeatAlphaNumeric1 {
 		// TODO Auto-generated method stub
 
 		final int MAX_VAL = 256;
-		String s = "aCbccc11";
+		String s = "aCbc2cc11";
+		s = s.toLowerCase();
 		int len = s.length();
 		int count[] = new int[MAX_VAL];
 		char ch[] = new char[s.length()];
@@ -42,7 +43,7 @@ public class RepeatAlphaNumeric1 {
 					System.out.println(ch[i] + " is repeated: " + count[s.charAt(i)] + " times");
 				}
 			} else {
-				System.out.println(ch[i] + " is repeated: " + 0 + " times");
+				System.out.println(ch[i] + " is repeated: " + 0 + " no repeatation");
 			}
 
 		}
