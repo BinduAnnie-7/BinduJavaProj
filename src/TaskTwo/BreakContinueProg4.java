@@ -8,26 +8,19 @@ public class BreakContinueProg4 {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		int num = 0, i = 0;
+		int num = 0;
 
 		System.out.println("Enter any number");
-		num = sc.nextInt();
 
-		while (num < 0) {
-			System.out.println("It's Over");
-			break;
+		while (true) {
+			num = sc.nextInt();
+			if (num < 0) {
+				System.out.println("It's Over");
+				break;
+			}
+			System.out.println("Good Going");
 		}
-		System.out.println("Good Going");
 
-		/*
-		 * for (i = num; i <= num + 1; i++) { if (num > 0) {
-		 * System.out.println("Good Going"); continue; } else if (num < 0) {
-		 * System.out.println("It's Over"); break;
-		 * 
-		 * }
-		 * 
-		 * }
-		 */
 	}
 
 }

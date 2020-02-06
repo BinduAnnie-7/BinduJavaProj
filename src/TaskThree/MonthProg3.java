@@ -10,7 +10,7 @@ public class MonthProg3 {
 		Scanner sc = new Scanner(System.in);
 		int months, flag = 1;
 
-		System.out.println("Enter  12 months");
+		System.out.println("Enter  1 to 12 months");
 		months = sc.nextInt();
 
 		if (months > 12) {
